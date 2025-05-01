@@ -52,6 +52,7 @@
 
   .inicio {
     position: relative;
+    margin: 10px 30px;
   }
 
   .inicio h1 {
@@ -65,6 +66,13 @@
   color: white;
   margin: 20px 40px !important;
   text-align: justify;
+  }
+
+  .carousel-item img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
   }
 
   .galeria {
