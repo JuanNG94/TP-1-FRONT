@@ -1,3 +1,5 @@
+/*TIPOGRAFIAS*/
+
 @import url("https://fonts.googleapis.com/css2?family=Fugaz+One&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap");
 
 .fugaz-one-regular {
@@ -53,6 +55,8 @@
   font-weight: 400;
   font-style: italic;
 }
+
+/*GRADIENT*/
 
 body {
   margin: 0;
@@ -141,7 +145,7 @@ nav ul li:hover {
   background-color: white;
 }
 
-/*INICIO DEL FOOTER*/
+/*FOOTER*/
 
 .foot-g {
   width: 100%;

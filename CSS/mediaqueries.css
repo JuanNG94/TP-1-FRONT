@@ -1,261 +1,265 @@
-/*PANTALLAS*/
+/*PANTALLAS PEQUEÑAS*/
 
 @media (max-width: 600px) {
-  
-    header {
-      position: relative;
-      grid-template-columns: 1fr;
-      justify-items: center;
-      opacity: 100;
-      margin: 0 !important;
-    }
-  
-    header h2 {
-      margin: 0;
-      padding: 20px 0 10px 0;
-      font-size: 30px;
-    }
-  
-    header nav ul {
-      justify-content: center;
-      justify-items: center;
-      align-content: center;
-      align-items: center;
-    }
-  
-    .text .luxury {
-      height: 100px;
-    }
-  
-    .text .luxury h2 {
-      font-size: 25px;
-    }
-  
-    .text .luxury h3 {
-      font-size: 25px;
-    }
-  
-    .text .info {
-      flex-direction: column;
-      margin: 0;
-    }
-  
-    .text .info p {
-      font-size: 20px;
-    }
-  
-    .text .info img {
-      width: 80%;
-    }
-  
-    .elijas {
-      height: 100px;
-    }
-  
-    .elijas h2 {
-      font-size: 30px;
-      margin-top: 20px;
-    }
-  
-    .elijas h3 {
-      font-size: 25px;
-      margin-bottom: 20px;
-    }
-  
-    .card-container {
-      flex-direction: column;
-      gap: 10px;
-      max-width: max-content;
-      align-items: center;
-    }
-  
-    .card-container .card {
-      width: 80%;
-    }
-  
-    .card-container .card p, ul {
-      font-size: 20px;
-    }
-  
-    .elegidos {
-      height: 100px;
-    }
-  
-    .elegidos h2 {
-      font-size: 30px;
-      margin-top: 10px;
-    }
-    
-    .contenedor-galeria {
-      margin: 50px 50px;
-    }
-  
-    .contenedor-galeria .galeria-elegidos {
-      flex-direction: column;
-      margin: 0;
-      gap: 40px;
-    }
-  
-    .felicidad h3 {
-      font-size: 20px;
-      padding: 5px;
-      margin: 40px 10px;
-    }
-  
-    footer .foot-g {
-      grid-template-columns: 1fr;
-      height: auto;
-      justify-items: normal;
-      margin: 0;
-    }
 
-    footer .foot-g .foot {
-      margin: 15px 20px; 
-    }
-
-    footer .foot-g ul {
-      margin-left: 0px;
-      padding: 0;
-      font-size: 15px;
-    }
-  
-    footer .foot-g ul li a {
-      font-size: 15px;
-    }
-
-    .inicio h1 {
-        font-size: 25px !important;
-    }
-
-    .galeria {
-      display: flex !important;
-      flex-direction: column;
-    }
-      
-    .contact h1 {
-      font-size: 25px !important;
-    }
-   
-    .contacto-container {
-      max-width: 380px !important;
-      margin: 40px auto 40px !important;
-    }
+  header {
+    position: relative;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    opacity: 100;
+    margin: 0 !important;
   }
-  
-  /*PANTALLAS MEDIANAS*/
-  
-  @media (min-width: 601px) and (max-width: 1300px) {
-    
-    header {
-      position: relative;
-    }
-  
-    header nav {
-      justify-content: space-between;
-    }
-  
-    header h2 {
-      padding: 25px;
-    }
-  
-    .text .luxury {
-      height: 100px;
-    }
-  
-    .text .luxury h2, h3 {
-      margin: 0;
-    }
-  
-    .text .info {
-      flex-direction: column;
-      margin: 0;}
-  
-      .text .info p {
-        font-size: 20px;
-      }
-  
-      .text .info img {
-        width: 80%;
-      }
-  
-      .elijas {
-        height: 100px;
-      }
-    
-      .elijas h2 {
-        font-size: 30px;
-        margin-top: 20px;
-      }
-    
-      .elijas h3 {
-        font-size: 25px;
-        margin-bottom: 20px;
-      }
-    
-      .card-container {
-        flex-wrap: wrap;
-        gap: 10px;
-        max-width: max-content;
-        align-items: center;
-      }
-    
-      .card-container .card {
-        width: 80%;
-      }
-    
-      .card-container .card h2 {
-        font-size: 30px;
-      }
-  
-      .card-container .card p, ul {
-        font-size: 25px;
-      }
-  
-      .elegidos {
-        height: 100px;
-      }
-  
-      .contenedor-galeria {
-        margin: 40px;
-      }
-  
-      .contenedor-galeria .galeria-elegidos {
-        flex-direction: column;
-        gap: 40px;
-      }
-  
-      .felicidad h3 {
-        font-size: 25px;
-        padding: 5px;
-        margin: 6% 5%;
-      }
-      
-      footer .foot-g {
-        grid-template-columns: 1fr;
-        height: auto;
-        justify-items: normal;
-        margin: 0;
-      }
-    
-      footer .foot-g .foot {
-        margin: 15px
-      }
-      
-      footer .foot-g ul {
-        margin-left: 0px;
-        padding: 0;
-      }
-  
-      footer .foot-g ul li {
-        font-size: 15px;
-      }
-  
-      footer .foot-g ul li a {
-        font-size: 15px;
-      }
 
-      .galeria {
-        display: flex !important;
-        flex-wrap: wrap;
-      }
+  header h2 {
+    margin: 0;
+    padding: 20px 0 10px 0;
+    font-size: 30px;
   }
+
+  header nav ul {
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .text .luxury {
+    height: 100px;
+  }
+
+  .text .luxury h2 {
+    font-size: 25px;
+  }
+
+  .text .luxury h3 {
+    font-size: 25px;
+  }
+
+  .text .info {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .text .info p {
+    font-size: 20px;
+  }
+
+  .text .info img {
+    width: 80%;
+  }
+
+  .elijas {
+    height: 100px;
+  }
+
+  .elijas h2 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .elijas h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .card-container {
+    flex-direction: column;
+    gap: 10px;
+    max-width: max-content;
+    align-items: center;
+  }
+
+  .card-container .card {
+    width: 80%;
+  }
+
+  .card-container .card p,
+  ul {
+    font-size: 20px;
+  }
+
+  .elegidos {
+    height: 100px;
+  }
+
+  .elegidos h2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .contenedor-galeria {
+    margin: 50px 50px;
+  }
+
+  .contenedor-galeria .galeria-elegidos {
+    flex-direction: column;
+    margin: 0;
+    gap: 40px;
+  }
+
+  .felicidad h3 {
+    font-size: 20px;
+    padding: 5px;
+    margin: 40px 10px;
+  }
+
+  footer .foot-g {
+    grid-template-columns: 1fr;
+    height: auto;
+    justify-items: normal;
+    margin: 0;
+  }
+
+  footer .foot-g .foot {
+    margin: 15px 20px;
+  }
+
+  footer .foot-g ul {
+    margin-left: 0px;
+    padding: 0;
+    font-size: 15px;
+  }
+
+  footer .foot-g ul li a {
+    font-size: 15px;
+  }
+
+  .inicio h1 {
+    font-size: 25px !important;
+  }
+
+  .galeria {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .contact h1 {
+    font-size: 25px !important;
+  }
+
+  .contacto-container {
+    max-width: 380px !important;
+    margin: 40px auto 40px !important;
+  }
+}
+
+/*PANTALLAS MEDIANAS*/
+
+@media (min-width: 601px) and (max-width: 1300px) {
+
+  header {
+    position: relative;
+  }
+
+  header nav {
+    justify-content: space-between;
+  }
+
+  header h2 {
+    padding: 25px;
+  }
+
+  .text .luxury {
+    height: 100px;
+  }
+
+  .text .luxury h2,
+  h3 {
+    margin: 0;
+  }
+
+  .text .info {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .text .info p {
+    font-size: 20px;
+  }
+
+  .text .info img {
+    width: 80%;
+  }
+
+  .elijas {
+    height: 100px;
+  }
+
+  .elijas h2 {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .elijas h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .card-container {
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: max-content;
+    align-items: center;
+  }
+
+  .card-container .card {
+    width: 80%;
+  }
+
+  .card-container .card h2 {
+    font-size: 30px;
+  }
+
+  .card-container .card p,
+  ul {
+    font-size: 25px;
+  }
+
+  .elegidos {
+    height: 100px;
+  }
+
+  .contenedor-galeria {
+    margin: 40px;
+  }
+
+  .contenedor-galeria .galeria-elegidos {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .felicidad h3 {
+    font-size: 25px;
+    padding: 5px;
+    margin: 6% 5%;
+  }
+
+  footer .foot-g {
+    grid-template-columns: 1fr;
+    height: auto;
+    justify-items: normal;
+    margin: 0;
+  }
+
+  footer .foot-g .foot {
+    margin: 15px
+  }
+
+  footer .foot-g ul {
+    margin-left: 0px;
+    padding: 0;
+  }
+
+  footer .foot-g ul li {
+    font-size: 15px;
+  }
+
+  footer .foot-g ul li a {
+    font-size: 15px;
+  }
+
+  .galeria {
+    display: flex !important;
+    flex-wrap: wrap;
+  }
+}
